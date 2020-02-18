@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="light">
+  <head>
+    <meta charset="UTF-8">
+    <title>Render HTML</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script type="text/javascript" src="scripts/renderer.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
+  </head>
+  <body>
+    <div id="box">
+      <input id="url" type="text" placeholder="web url..." style="width: calc(100% - 4px)"><br>
+      <input id="file" type="text" placeholder="html file..." style="width: calc(100% - 4px)"><br>
+      <input id="width" type="number" placeholder="width" style="width: calc(50% - 12px)"><!--
+   --><span id="x" style="width: 10px">x</span><!--
+   --><input id="height" type="number" placeholder="height" style="width: calc(50% - 12px)"><br>
+      <button id="render" style="width: 100px; transform: translateX(38px)">RENDER</button>
+    </div>
+    <div id="info">hide/show with [h]</div>
+  </body>
+</html>

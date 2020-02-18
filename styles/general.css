@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+}
+
+div#box {
+  width: 180px;
+  background: linear-gradient(to bottom, #E7E6E7, #D7D6D7);
+  margin: 10px;
+  padding: 10px 4px 18px 4px;
+  border-radius: 5px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+  background: #F9F9F9;
+}
+
+div#box > * {
+  margin: 6px 2px;
+  box-sizing: border-box;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 12px;
+  background: none;
+}
+
+div#box > input {
+  padding: 0 3px;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+div#box > #x {
+  color: lightgrey;
+  display: inline-block;
+  text-align: center;
+}
+
+div#box > button {
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  height: 20px;
+  color: white;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+  background: #FC6F81;
+  cursor: pointer;
+}
+
+div#info {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 11px;
+  color: grey;
+  margin: 20px 10px;
+}
